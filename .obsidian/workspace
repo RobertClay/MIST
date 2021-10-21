@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "3fcf8e8ac4b64f7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "61f0aaafb4ebe9ba",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3834f9bd5d3982a",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbea522f92aa4d9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d85fd99563053a0b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7baf1b0d22bf7473",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "70403aba27e38663",
+    "type": "split",
+    "children": [
+      {
+        "id": "d15857d39384056b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e77e1d8d49bba58a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "61f0aaafb4ebe9ba",
+  "lastOpenFiles": [
+    "README.md",
+    "utility/templates/README.md",
+    "utility/templates/evergreen_note.md",
+    "utility/templates/literature_note.md",
+    "utility/templates/public_note.md",
+    "utility/templates/Note.md",
+    "utility/templates/Map of Content.md"
+  ]
+}
