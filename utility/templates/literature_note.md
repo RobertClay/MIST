@@ -2,13 +2,14 @@
 aliases: []
 tags: []
 author: ""
+url: ""
 title: "{{title}}"
 type: "literature"
 status: "nascent, in-progress, gardening"
 year: "{{date}}"
 ---
 
-# Key Point
+# Key Points
 
 What are they key takeaways from this literature
 

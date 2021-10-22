@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "61f0aaafb4ebe9ba",
+        "id": "5c10ae6760f354db",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Literature Notes/Arnold - DAG-informed regression modelling, agent-based modelling and  microsimulation modelling. A critical comparison of methods for causal  inference.md",
             "mode": "source"
           }
         }
@@ -49,6 +49,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "20fc75ebdb3882da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61f0aaafb4ebe9ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature Notes/Arnold - DAG-informed regression modelling, agent-based modelling and  microsimulation modelling. A critical comparison of methods for causal  inference.md",
+                "mode": "source"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -68,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Literature Notes/Arnold - DAG-informed regression modelling, agent-based modelling and  microsimulation modelling. A critical comparison of methods for causal  inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +103,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "61f0aaafb4ebe9ba",
+  "active": "5c10ae6760f354db",
   "lastOpenFiles": [
+    "Literature Notes/Arnold - DAG-informed regression modelling, agent-based modelling and  microsimulation modelling. A critical comparison of methods for causal  inference.md",
+    "utility/templates/literature_note.md",
+    "utility/templates/fleeting_note.md",
+    "utility/templates/evergreen_note.md",
     "README.md",
     "utility/templates/README.md",
     "Literature Notes/example_literature.md",
     "Evergreen Notes/example_evergreen.md",
     "Fleeting Notes/example_fleeting.md",
-    "Literature Notes/Untitled.md",
-    "utility/templates/evergreen_note.md",
-    "utility/templates/fleeting_note.md",
-    "utility/templates/literature_note.md",
     "utility/templates/public_note.md"
   ]
 }
