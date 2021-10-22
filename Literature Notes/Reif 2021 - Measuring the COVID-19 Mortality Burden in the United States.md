@@ -2,7 +2,7 @@
 aliases: []
 tags: [microsimulation, QALYs, FEM, FAM, COVID-19, Tysinger]
 author: "Reif J; Heun-Johnson H; Tysinger B; Lakdawalla D"
-url: "https://pubmed.ncbi.nlm.nih.gov/34543588/"
+URL: "https://pubmed.ncbi.nlm.nih.gov/34543588/"
 title: "Measuring the COVID-19 Mortality Burden in the United States: A Microsimulation Study"
 type: "literature"
 status: "in-progress"

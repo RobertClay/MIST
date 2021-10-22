@@ -2,7 +2,7 @@
 aliases: []
 tags: [Microsimulation, ABM, CausalInference, Epidemiology, Counterfactuals]
 author: "Arnold K"
-url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380300/pdf/dyy260.pdf"
+URL: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380300/pdf/dyy260.pdf"
 title: "Arnold - DAG-informed regression modelling, agent-based modelling and  microsimulation modelling. A critical comparison of methods for causal  inference"
 type: "literature"
 status: "in-progress"
