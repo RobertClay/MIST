@@ -17,6 +17,10 @@ year: "{{date}}"
 
 > Why was this literature written what problem is it addressing?
 
+# Background
+
+> What previous work has been done towards this problem?
+
 # Methods
 
 > What methods were used? How do they address any issues?
