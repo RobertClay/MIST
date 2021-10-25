@@ -13,7 +13,13 @@ year: "2021-10-25"
 
 > What are they key takeaways from this literature
 - Multiple imputation is a technique for reducing bias due to missing data. This paper describes its pros, cons, and applcation to general medical journals.
-- 
+- Multiple imputation will randomly assigned missing values to an ensemble of populations. Each population is fitted with a model and the overall effect analysed.
+- While useful it suffers a number of pitfalls. Namely if data are incorrectly assumed missing at random, if variables are not Gaussian distributed or if any variable being imputed is conditional on the outcome.
+- To prevent this guidelines are specified. The user should:
+	- describe any missing data giving possible reasons in terms of other variables if possible
+	- Clarify any differences between complete and imputed populations.
+	- Describe the analysis done in great detail. If Multiple Imputation is used describe its assumptions (missing data MAR), parameters (number of imputations), software, variables imputed, and robustness under sensetivity analysis. 
+- Very few papers as of 2009 follow these guidelines. Only 1/59.
 
 # Motivation
 
@@ -50,7 +56,7 @@ year: "2021-10-25"
 - Omitting outcome variable from imputation procedure. Predictors are generally conditoinal on the outcome. Someone who develops coronary heart disease will have higher systolic blood pressure on average. This needs to be accounted for rather than imputing purely randomly.
 - Non normally distributed variables. If a variable is not normally distributed this will skew the population and induce bias. There are futher techniques for non-normal distribution.
 - Requires MAR assumption. If predictor of missingness is in the dataset this method is useful. If the data is MNAR it is not. MI will underestimate mean predictors and may produce spurrious associations. It is sensible to include a wife range of variables when imputing.
-- Systematic missing data. Data that are not MAR. MI will be biased in this case. It is impossible to determine how big any bias is. 
+- Data not missing at random. Data that are not MAR. MI will be biased in this case. It is impossible to determine how big any bias is. The analyist must detemine possible reasons for missing data and the likelihood of it being a concern.
 
 # Results
 
