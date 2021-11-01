@@ -1,8 +1,8 @@
 ---
 aliases: []
-tags: []
-author: ""
-URL: ""
+tags: [microsimulation, multiple_imputation, missing_data, longitudinal]
+author: "Spratt M"
+URL: "https://pubmed.ncbi.nlm.nih.gov/20616200/"
 title: "Spratt 2010 - Strategies for Multiple Imputation in Longitudinal Studies"
 type: "literature"
 status: "nascent, in-progress, gardening"
@@ -66,3 +66,4 @@ Any new words should be defined here or reference from the main glossary in /Uti
 
 # References
 1. Royston P. Multiple imputation of missing values: update.  Stata J. 2005;5(2):188–201.
+2. Bodner TE. What improves with increased missing data imputations? Struct Equ Modeling. 2008;15(4):651–75
