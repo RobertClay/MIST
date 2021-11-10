@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: [missingness, multiple imputation, statistics]
+tags: [missingness, multiple_imputation, imputation, statistics]
 author: Sterne JAC
 URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2714692/
 title: "Sterne 2009 - Multiple Imputation"
@@ -12,13 +12,13 @@ year: "2021-10-25"
 # Key Points
 
 > What are they key takeaways from this literature
-- Multiple imputation is a technique for reducing bias due to missing data. This paper describes its pros, cons, and applcation to general medical journals.
-- Multiple imputation will randomly assigned missing values to an ensemble of populations. Each population is fitted with a model and the overall effect analysed.
-- While useful it suffers a number of pitfalls. Namely if data are incorrectly assumed missing at random, if variables are not Gaussian distributed or if any variable being imputed is conditional on the outcome.
+- Multiple imputation is a technique for reducing bias due to missing data. This paper describes its pros, cons, and application to general medical journals.
+- Multiple imputation will randomly assign missing values with surrogates from a pool of potential donors. Assignment is done randomly over multiple iterations to produce an ensemble of imputed populations. Analysis is performed on each population separately and summarised using ensemble statistics (mean, variance, etc.).
+- While useful it suffers a number of pitfalls. Namely if data are incorrectly assumed missing at random (MAR), if variables are not Gaussian distributed or if any variable being imputed is conditional on the outcome.
 - To prevent this guidelines are specified. The user should:
-	- describe any missing data giving possible reasons in terms of other variables if possible
+	- describe any missing data giving possible reasons for missingness in terms of other variables if possible.
 	- Clarify any differences between complete and imputed populations.
-	- Describe the analysis done in great detail. If Multiple Imputation is used describe its assumptions (missing data MAR), parameters (number of imputations), software, variables imputed, and robustness under sensetivity analysis. 
+	- Describe the analysis done in great detail. If Multiple Imputation is used describe its assumptions (missing data MAR), parameters (number of imputed populations, number of repetitions, etc.), software, variables imputed, and robustness under sensetivity analysis. 
 - Very few papers as of 2009 follow these guidelines. Only 1/59.
 
 # Motivation
