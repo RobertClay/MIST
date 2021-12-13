@@ -27,7 +27,7 @@ year: "2021-11-26"
 	- types of policy counterfactuals.  
 	
 - Comparison of health MSIMS with the '12 SAGE Lessons' stresses:
-	-  the tradeoff between model detail and predictive power
+	-  the tradeoff between model detail and predictive power. As more variables are added the model becomes more uncertain and less interpretable. Behavioural prediction gets better but aggregate estimates get worse.
 	-  the model should objectives should be clearly defined beforehand to determine detail required
 	-   MSIMS need to be flexible to handle additional data or processes that may be required for certain policy questions.
 	-   Modelling of explicit behaviour is expensive but better estimates data generating process. Continuous time models are useful here but expensive. ABM hybrids may be the answer.
@@ -54,7 +54,7 @@ Work presents a number of models
 	- It does however heavily use alignment to recalibrate projections to published data. Can make difficult to interpret projections with bizarre mobility. “without realigning or rebasing the data for a recent historic year, projections of future years may begin from a base that already is subject to errors accumulated over a 35 year simulation period” (2). Can align to aggregates but not way to check joint distributions.  I.E. extrapolation long term struggles to keep population representiveness.
 - DYNAMOD is an Australian model projecting demographics, migration, education, labour, and so on over 30 years.
 	- It is based on dynasim2. 
-	- Uses a pseudocontinuous time framework operating in monthly steps for labour/demographics and yearly steps for education/earnings. Uses maximum survival functions to trade off between time granularity and computing demands. Survival functions need constant re-evaluation based on attribute changes. E.g. a personse time of death is determined when they are born and re-evaluate given a change in health state. Allows for continuous time competing risk modelling. Very hard to developo these models though. (1)
+	- Uses a pseudocontinuous time framework operating in monthly steps for labour/demographics and yearly steps for education/earnings. Uses maximum survival functions to trade off between time granularity and computing demands. Survival functions need constant re-evaluation based on attribute changes. E.g. a personse time of death is determined when they are born and re-evaluate given a change in health state. Allows for continuous time competing risk modelling. Very hard to develop these models though. (1)
 - Lifepaths is a canadian DMSIM for general purpose demographic behaviour project that is different from everything else so far.
 	- Operates in continous time. Transitions are modelled as waiting times between events akin to continuous Markov chains. 
 	- Individuals here are modelled as cases. These cases consist of dominant individuals whose spouses and children are modelled as part of the case. The entirety of each case is simulated sequentially. The model is open such that cases can leave and enter as desired. Perhaps a case splits into two.
