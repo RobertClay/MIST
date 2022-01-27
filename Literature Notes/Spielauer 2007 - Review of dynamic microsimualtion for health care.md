@@ -88,15 +88,13 @@ NCCSU long term care model is developed for the UK population. It is the micro c
 
 # Results - 12 SAGE Lessons
 
-- 'A successful model requires clear objectives'. Health MSIMS are tools for investigation of health process. Hence any MSIM has to model changes in health attributes. 
-- If the objective is to project health care, the model should produce its own population aggregates without being aligned to other projections. MSIMS should be flexible in specifying external aggregates for sensetivity analyses in the short medium/term. 
+- 'A successful model requires clear objectives'. Health MSIMS are tools for investigation of health process. Hence any MSIM has to model changes in health attributes. Generally very clear objectives.
+- If the objective is to project health care, the model should produce its own population aggregates without being aligned to other projections. MSIMS should be flexible in specifying external aggregates for sensitivity analyses in the short medium/term. 
 -  If an MSIM is for input for another model/ half of a micro-macro model then clear interfaces between models need to be defined beforehand. MSIMS need to be flexible enough to include additional relevant processes/variables to be comprehensive.
-
 - There is a general tradeoff between higher detail variables and predictive power of models. Can also be seen as a trade off between cross-ssectional detail and interpretability of a model for long term forecasting. ' A possible way to avoid such a trade-off might be to design a microsimulation model as a modelling platform rather than as one single model, suitable to include different degrees of detail depending on the projection horizon.' (RC: many models and often strategy?)
 - 'Models need to be sensetive to shortcomings of data.'. Health msims typically use a wide number of data sources synthetically. Need to be highly flexible to incorporate more recent data as it arrives. (adaptive DMSIM?)
 - "Limits of data, and the difficulties of modelling ‘continuous time’ mean that a traditional structure may be preferable. However, it may bring dividends to introduce innovations into a traditional structure. For example, the feasibility of looking at certain events on a shorter timescale (e.g. monthly) should be explored. In addition, hazard rates and survival functions should be examined”. Has been done numerous times already. Use of continuous or pseudo-continuous timescales can be more appropriate if more expensive. (RC: this is where I come in..)
 - The end data of MSIMS is important. Social projections can take place over 50-100 years. Likewise many datasets dont go back 50 years so MSIMS can be used to backcast.
-
 - Data representitiveness is more important than detail. Again bias-variance tradeoff. Not so much of a problem as surveys get better.
 - Finally model validation should be done first with sensetivity analyses to estimate impact of certain parameters. Retrospective validation (nowcasting) is also helpful. Definitely true for health too. Further fuels need for open source code to make validation easier. LifePaths and MODGEN are particularly useful for this.  
 

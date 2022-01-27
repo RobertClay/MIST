@@ -4,5 +4,6 @@
 !.obsidian/appearance.json
 !.obsidian/core-plugins.json
 !.obsidian/templates.json
-!.obsidian/workspace
-!.obsidian/themes
+.obsidian/workspace
+.obsidian/themes
+.obsidian/appearance.json
